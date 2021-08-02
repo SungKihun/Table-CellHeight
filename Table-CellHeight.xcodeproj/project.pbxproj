@@ -9,21 +9,21 @@
 /* Begin PBXBuildFile section */
 		7B66360E26B7F4F20010C65A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B66360D26B7F4F20010C65A /* AppDelegate.swift */; };
 		7B66361026B7F4F20010C65A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B66360F26B7F4F20010C65A /* SceneDelegate.swift */; };
-		7B66361226B7F4F20010C65A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B66361126B7F4F20010C65A /* ViewController.swift */; };
 		7B66361526B7F4F20010C65A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B66361326B7F4F20010C65A /* Main.storyboard */; };
 		7B66361726B7F4F30010C65A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B66361626B7F4F30010C65A /* Assets.xcassets */; };
 		7B66361A26B7F4F30010C65A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B66361826B7F4F30010C65A /* LaunchScreen.storyboard */; };
+		7B66362226B803780010C65A /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B66362126B803780010C65A /* ListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7B66360A26B7F4F20010C65A /* Table-CellHeight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Table-CellHeight.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B66360D26B7F4F20010C65A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7B66360F26B7F4F20010C65A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7B66361126B7F4F20010C65A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7B66361426B7F4F20010C65A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7B66361626B7F4F30010C65A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7B66361926B7F4F30010C65A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7B66361B26B7F4F30010C65A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B66362126B803780010C65A /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +58,7 @@
 			children = (
 				7B66360D26B7F4F20010C65A /* AppDelegate.swift */,
 				7B66360F26B7F4F20010C65A /* SceneDelegate.swift */,
-				7B66361126B7F4F20010C65A /* ViewController.swift */,
+				7B66362126B803780010C65A /* ListViewController.swift */,
 				7B66361326B7F4F20010C65A /* Main.storyboard */,
 				7B66361626B7F4F30010C65A /* Assets.xcassets */,
 				7B66361826B7F4F30010C65A /* LaunchScreen.storyboard */,
@@ -137,9 +137,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7B66361226B7F4F20010C65A /* ViewController.swift in Sources */,
 				7B66360E26B7F4F20010C65A /* AppDelegate.swift in Sources */,
 				7B66361026B7F4F20010C65A /* SceneDelegate.swift in Sources */,
+				7B66362226B803780010C65A /* ListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,6 +289,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 46ZSHLBGKW;
 				INFOPLIST_FILE = "Table-CellHeight/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -308,6 +309,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 46ZSHLBGKW;
 				INFOPLIST_FILE = "Table-CellHeight/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
